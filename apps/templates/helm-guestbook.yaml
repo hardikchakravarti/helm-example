@@ -11,6 +11,6 @@ spec:
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
-    chart: chartmuseum/helm-guestbook
+    chart: chartmuseum
     repoURL: https://chartmuseum.github.io/charts
     targetRevision: 2.15.0
