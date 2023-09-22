@@ -16,5 +16,5 @@ spec:
     targetRevision: 0.1.0
     helm:
       valueFiles:
-      - /helm-guestbook/values.yaml
+      - helm-guestbook/values.yaml
   - repoURL: 'https://github.com/hardikchakravarti/helm-example.git'
