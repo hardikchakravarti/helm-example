@@ -12,6 +12,6 @@ spec:
   project: default
   source:
     chart: helm-guestbook
-    repoURL: https://hardikchakravarti.github.io/chartrepository
+    repoURL: https://hardikchakravarti.github.io/chartrepository/helm-guestbook
     targetRevision: 0.1.0
 
