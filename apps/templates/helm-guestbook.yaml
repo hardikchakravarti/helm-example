@@ -14,4 +14,7 @@ spec:
     chart: helm-guestbook
     repoURL: https://hardikchakravarti.github.io/chartrepository/helm-guestbook
     targetRevision: 0.1.0
+    helm:
+      valueFiles:
+        - https://github.com/hardikchakravarti/helm-example/helm-guestbook/values.yaml
 
