@@ -13,4 +13,5 @@ spec:
   source:
     chart: helm-guestbook
     repoURL: https://hardikchakravarti.github.io/chartrepository
-    targetRevision: 2.15.0
+    targetRevision: 0.1.0
+
