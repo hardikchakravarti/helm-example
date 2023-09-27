@@ -19,4 +19,12 @@ spec:
       - $values/helm-guestbook/values.yaml
   - repoURL: 'https://github.com/hardikchakravarti/helm-example.git'
     targetRevision: HEAD
-    ref: values 
+    ref: values
+syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
+    automated:
+      selfHeal: true
+      prune: true    
+
