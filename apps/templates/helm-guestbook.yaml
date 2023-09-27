@@ -20,11 +20,11 @@ spec:
   - repoURL: 'https://github.com/hardikchakravarti/helm-example.git'
     targetRevision: HEAD
     ref: values
-syncPolicy:
+
+  syncPolicy:
     syncOptions:
     - CreateNamespace=true
 
     automated:
       selfHeal: true
       prune: true    
-
